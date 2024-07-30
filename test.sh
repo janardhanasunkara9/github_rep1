@@ -3,3 +3,5 @@
 echo `date`
 
 echo `hostname`
+
+echo "My Name is Jana"
