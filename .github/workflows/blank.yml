@@ -1,0 +1,16 @@
+#Name of the Workflow
+name: 1_First_wkfw
+
+#Workflow Trigger event
+on: workflow_dispatch
+
+#Define Job
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Job_Step1 :Printing Greetings"
+        run: echo "Hello Good Morning"
+
+      - name: "Job_Step2: Say Bye"
+        run: echo `uname -a`    
