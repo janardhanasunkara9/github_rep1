@@ -13,4 +13,6 @@ jobs:
         run: echo "Hello Good Morning"
 
       - name: "Job_Step2: Say Bye"
-        run: echo `uname -a`    
+        run: echo `uname -a`
+      - name: "Get Python Path Info"
+        run: which python
